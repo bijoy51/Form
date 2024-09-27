@@ -1,0 +1,113 @@
+/*Responsive for leptop L 1440px*/
+@media only screen and (max-width : 1440px){
+    .container{
+        max-width: 70%;
+    }
+    .contactInfo{
+        margin-right : 85px;
+    }
+}
+/*Responsive for laptop 1024*/
+@media only screen and (max-width : 1024px){
+    .firstName{
+        max-width: 400px;
+        margin-right: 280px;
+        margin-bottom: 20px;
+    }
+    .lastName{
+        max-width: 400px;
+    }
+    .fatherName{
+        max-width: 400px;
+        margin-right: 280px;
+        margin-bottom: 20px;
+    }
+    .motherName{
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+    .presentAddressDesing{
+        max-width: 160px;
+        margin-right: 110px;
+    }
+    .permanentAddressDesing{
+        max-width: 160px;
+        margin-right: 110px;
+    }
+    .contactInfo{
+        max-width: 330px;
+        margin-bottom: 20px;
+        margin-right: 220px;
+    }
+    #specialSkills{
+        max-width: 550px;
+    }
+    .footer label{
+        margin-right: 55%;
+    }
+}
+/*Responsive for tablet*/
+@media only screen and (max-width : 768px){
+    .container{
+        height: 400vh;
+    }
+    .firstName{
+        max-width: 280px;
+        margin-right: 137px;
+    }
+    .lastName{
+        max-width: 280px;
+    }
+    .fatherName{
+        max-width: 280px;
+        margin-right: 105px;
+    }
+    .motherName{
+        max-width: 280px;
+    }
+    #sscgpa{
+        margin-right: 120px;
+    }
+    #passingYear{
+        margin-bottom: 10px;
+    }
+    #hscgpa{
+        margin-right: 120px;
+    }
+    #graduatecgpa{
+        margin-right: 120px;
+    }
+    #postGraduatecgpa{
+        margin-right: 120px;
+    }
+    .presentAddressDesing{
+        max-width: 140px;
+        margin-right: 35px;
+    }    
+    .permanentAddressDesing{
+        max-width: 140px;
+        margin-right: 35px;
+    }
+    .contactInfo{
+        max-width: 270px;
+        margin-right: 110px;
+    }
+    .experiencePart{
+        max-width: 300px;
+    }
+    #specialSkills{
+        max-width: 380px;
+        height: 140px;
+    }
+    .footer label{
+        margin-right: 47%;
+    }
+}
+/*Responsive for Mobile L*/
+@media only screen and (max-width : 425px){
+    .container{
+        width: 100%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
